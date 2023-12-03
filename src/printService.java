@@ -14,7 +14,7 @@ public class printService {
         for (int i = 0; i < hufflepuffs.length; i++) {
             Hufflepuff person = hufflepuffs[i];
             System.out.println("Имя учащегося: " + person.getName() + "; Особенности: " + person.getSkill() +
-                    "; Характер: " + person.getСharacter() + "; Магия: " + person.getMagic() +
+                    "; Характер: " + person.getCharacter() + "; Магия: " + person.getMagic() +
                     "; Расстояние трансгрессии: " + person.getTransgress());
         }
     }
@@ -23,7 +23,7 @@ public class printService {
         for (int i = 0; i < ravenclaws.length; i++) {
             Ravenclaw person = ravenclaws[i];
             System.out.println("Имя учащегося: " + person.getName() + "; Особенности: " + person.getSkill() +
-                    "; Характер: " + person.getСharacter() + "; Магия: " + person.getMagic() +
+                    "; Характер: " + person.getCharacter() + "; Магия: " + person.getMagic() +
                     "; Расстояние трансгрессии: " + person.getTransgress());
         }
     }
@@ -32,7 +32,7 @@ public class printService {
         for (int i = 0; i < slytherins.length; i++) {
             Slytherin person = slytherins[i];
             System.out.println("Имя учащегося: " + person.getName() + "; Особенности: " + person.getSkill() +
-                    "; Характер: " + person.getСharacter() + "; Магия: " + person.getMagic() +
+                    "; Характер: " + person.getCharacter() + "; Магия: " + person.getMagic() +
                     "; Расстояние трансгрессии: " + person.getTransgress());
 
         }
